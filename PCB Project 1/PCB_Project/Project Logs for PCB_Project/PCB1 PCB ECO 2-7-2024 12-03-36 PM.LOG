@@ -1,0 +1,18 @@
+Added Component: Designator=T?(EE16_7_4 (E16))
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.we-online.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.we-online.de/katalog/media/pdf/7491182012.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Inductance"; Value = "0.9mH"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Input Voltage (AC)"; Value = "85-265"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "Wuerth Elektronik"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current (A)"; Value = "0.6"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage (DC)"; Value = "12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "EE16_7_4 (E16)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "7491182012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Turns Ratio"; Value = ""9.5","1:1""; VariantName = "[No Variations]"
+Add Net: Net with name "NetR?_1" already exists
+Added Member To Class: ClassName=Sheet1 Member=Component R? MFR-25FBF52-10K
+Added Member To Class: ClassName=Sheet1 Member=Component R? MFR-25FBF52-10K
+Added Member To Class: ClassName=Sheet1 Member=Component T? 7491182012
+Added Room: Name=Sheet1

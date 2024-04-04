@@ -1,0 +1,48 @@
+Removed Pin From Net: NetName=NetK1_NO Pin=SOLENOID 1-1
+Removed Pin From Net: NetName=NetK1_COM Pin=SOLENOID 1-2
+Removed Pin From Net: NetName=NetK2_NO Pin=SOLENOID 2-1
+Removed Pin From Net: NetName=NetK2_COM Pin=SOLENOID 2-2
+Change Component Footprint: Designator=SOLENOID 1 Old Footprint=MOLX-22-27-2021_V New Footprint=MOLX-22-27-2031_V
+Change Component Footprint: Designator=SOLENOID 2 Old Footprint=MOLX-22-27-2021_V New Footprint=MOLX-22-27-2031_V
+Change Component Comment : Designator=SOLENOID 1 Old Comment=22-27-2021 New Comment=22-27-2031
+Change Component Comment : Designator=SOLENOID 2 Old Comment=22-27-2021 New Comment=22-27-2031
+Change Managed Component Library Link : Designator=SOLENOID 1 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=DF46AFD1-14A4-47BA-B2D8-33B7C267FCAA New ItemGUID=DA266960-442A-4B30-8888-DA34A2E3EA35 Old RevisionGUID=F7E020CE-CD10-4496-9A7C-7151BE303C89 New RevisionGUID=50EC9777-56EC-4F9F-B8B5-0836F0D59E9E
+Change Managed Component Library Link : Designator=SOLENOID 2 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=DF46AFD1-14A4-47BA-B2D8-33B7C267FCAA New ItemGUID=DA266960-442A-4B30-8888-DA34A2E3EA35 Old RevisionGUID=F7E020CE-CD10-4496-9A7C-7151BE303C89 New RevisionGUID=50EC9777-56EC-4F9F-B8B5-0836F0D59E9E
+Change component parameters: Designator = "SOLENOID 1" ("SOLENOID 1"); Footprint = "MOLX-22-27-2021_V"; UniqueID = "\YMZBAQBD" ("\YMZBAQBD")
+Change component parameters (AddParameter): Name = "Contact material"; Value = "Tinplatedbrass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current rating"; Value = "4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.molex.com/webdocs/datasheets/pdf/en-us/0022272031_PCB_HEADERS.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "06/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing material"; Value = "Nylon(UL94V-0)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.molex.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating temperature"; Value = "0°Cto+75°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 2.54 mm, 1 x 3 Position, Height 11.7 mm, Tail Length 3.56 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "22-27-2031"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.molex.com/pdm_docs/sd/022272031_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage rating"; Value = "250V"; VariantName = "[No Variations]"
+Change component parameters: Designator = "SOLENOID 2" ("SOLENOID 2"); Footprint = "MOLX-22-27-2021_V"; UniqueID = "\ZZISSVWA" ("\ZZISSVWA")
+Change component parameters (AddParameter): Name = "Contact material"; Value = "Tinplatedbrass"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Current rating"; Value = "4A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet URL"; Value = "http://www.molex.com/webdocs/datasheets/pdf/en-us/0022272031_PCB_HEADERS.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Version"; Value = "06/2016"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Housing material"; Value = "Nylon(UL94V-0)"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer"; Value = "Molex"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer URL"; Value = "http://www.molex.com/"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mounting Technology"; Value = "ThroughHole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Operating temperature"; Value = "0°Cto+75°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Description"; Value = "Male Header, Pitch 2.54 mm, 1 x 3 Position, Height 11.7 mm, Tail Length 3.56 mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Reference"; Value = "22-27-2031"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package URL"; Value = "http://www.molex.com/pdm_docs/sd/022272031_sd.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage rating"; Value = "250V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetK2_NO Pin=SOLENOID 1-1
+Added Pin To Net: NetName=NetK2_COM Pin=SOLENOID 1-2
+Added Pin To Net: NetName=NetK1_NO Pin=SOLENOID 2-1
+Added Pin To Net: NetName=NetK1_COM Pin=SOLENOID 2-2
+Added Pin To Net: NetName=NetK1_NC Pin=K1-NC
+Added Pin To Net: NetName=NetK1_NC Pin=SOLENOID 2-3
+Added Net: Name=NetK1_NC
+Added Pin To Net: NetName=NetK2_NC Pin=K2-NC
+Added Pin To Net: NetName=NetK2_NC Pin=SOLENOID 1-3
+Added Net: Name=NetK2_NC

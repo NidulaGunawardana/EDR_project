@@ -1,0 +1,3 @@
+http://opencircuitdesign.com/xcircuit/goodschem/goodschem.html
+
+https://www.pcbway.com/blog/PCB_Design_Tutorial/How_to_make_clear_and_well_organized_schematics.html

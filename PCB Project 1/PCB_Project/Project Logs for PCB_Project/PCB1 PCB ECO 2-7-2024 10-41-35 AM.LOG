@@ -1,0 +1,12 @@
+Added Component: Designator=R?(RESAD1630W60L630D250)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/28726/uxa0204.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "UXB02070F1000BR100"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "594-UXB02070F1000BR1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-Beyschlag/UXB02070F1000BR100?qs=AUpaymU3LOg2e0j2rq%252Bujg%3D%3D"; VariantName = "[No Variations]"
+Add Net: Net with name "NetR?_1" already exists
+Added Member To Class: ClassName=Sheet1 Member=Component R? MFR-25FBF52-10K
+Added Member To Class: ClassName=Sheet1 Member=Component R? UXB02070F1000BR100
+Added Room: Name=Sheet1

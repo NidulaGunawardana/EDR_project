@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BMS_Cell_Module-rescue)(type Legacy)(uri ${KIPRJMOD}/BMS_Cell_Module-rescue.lib)(options "")(descr ""))
+  (lib (name adum1250arz)(type Legacy)(uri ${KIPRJMOD}/adum1250arz.lib)(options "")(descr ""))
+  (lib (name reg710)(type Legacy)(uri ${KIPRJMOD}/reg710.lib)(options "")(descr ""))
+)
