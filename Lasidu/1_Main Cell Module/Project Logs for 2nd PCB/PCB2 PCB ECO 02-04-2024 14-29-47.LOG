@@ -1,0 +1,90 @@
+Removed Pin From Net: NetName=VCC_U1 Pin=Rx-1
+Removed Pin From Net: NetName=RXDO_U1 Pin=Rx-2
+Added Pin To Net: NetName=VCC_U1 Pin=C1_U2-2
+Added Pin To Net: NetName=VCC_U1 Pin=C1_U3-2
+Added Pin To Net: NetName=VCC_U1 Pin=C1_U4-2
+Added Pin To Net: NetName=GND_U1 Pin=C1_U5-1
+Added Pin To Net: NetName=VCC_U1 Pin=C1_U5-2
+Added Pin To Net: NetName=VCC_U1 Pin=C2_U2-1
+Added Pin To Net: NetName=VCC_U1 Pin=C2_U3-1
+Added Pin To Net: NetName=VCC_U1 Pin=C2_U4-1
+Added Pin To Net: NetName=VCC_U1 Pin=C2_U5-1
+Added Pin To Net: NetName=GND_U1 Pin=C2_U5-2
+Added Pin To Net: NetName=GND_U1 Pin=D1_U5-3
+Added Pin To Net: NetName=VCC_U1 Pin=D2_U2-1
+Added Pin To Net: NetName=VCC_U1 Pin=D2_U3-1
+Added Pin To Net: NetName=VCC_U1 Pin=D2_U4-1
+Added Pin To Net: NetName=VCC_U1 Pin=D2_U5-1
+Added Pin To Net: NetName=GND_U1 Pin=D2_U5-2
+Added Pin To Net: NetName=VCC_U1 Pin=D3_U2-2
+Added Pin To Net: NetName=VCC_U1 Pin=D3_U3-2
+Added Pin To Net: NetName=VCC_U1 Pin=D3_U4-2
+Added Pin To Net: NetName=VCC_U1 Pin=D3_U5-2
+Added Pin To Net: NetName=VCC_U1 Pin=F1_U2-2
+Added Pin To Net: NetName=VCC_U1 Pin=F1_U3-2
+Added Pin To Net: NetName=VCC_U1 Pin=F1_U4-2
+Added Pin To Net: NetName=VCC_U1 Pin=F1_U5-2
+Added Pin To Net: NetName=ENABLE_U1 Pin=IC1_U1-13
+Added Pin To Net: NetName=VCC_U1 Pin=IC1_U2-1
+Added Pin To Net: NetName=RXDO_U1 Pin=IC1_U2-6
+Added Pin To Net: NetName=VCC_U1 Pin=IC1_U3-1
+Added Pin To Net: NetName=RXDO_U1 Pin=IC1_U3-6
+Added Pin To Net: NetName=VCC_U1 Pin=IC1_U4-1
+Added Pin To Net: NetName=RXDO_U1 Pin=IC1_U4-6
+Added Pin To Net: NetName=VCC_U1 Pin=IC1_U5-1
+Added Pin To Net: NetName=RXDO_U1 Pin=IC1_U5-6
+Added Pin To Net: NetName=GND_U1 Pin=IC1_U5-14
+Added Pin To Net: NetName=GND_U1 Pin=Q1_U5-2
+Added Pin To Net: NetName=VCC_U1 Pin=R1_U2-2
+Added Pin To Net: NetName=VCC_U1 Pin=R1_U3-2
+Added Pin To Net: NetName=VCC_U1 Pin=R1_U4-2
+Added Pin To Net: NetName=VCC_U1 Pin=R1_U5-2
+Added Pin To Net: NetName=VCC_U1 Pin=R6_U2-1
+Added Pin To Net: NetName=VCC_U1 Pin=R6_U3-1
+Added Pin To Net: NetName=VCC_U1 Pin=R6_U4-1
+Added Pin To Net: NetName=VCC_U1 Pin=R6_U5-1
+Added Pin To Net: NetName=GND_U1 Pin=R15_U5-2
+Added Pin To Net: NetName=RXDO_U1 Pin=R16_U2-2
+Added Pin To Net: NetName=RXDO_U1 Pin=R16_U3-2
+Added Pin To Net: NetName=RXDO_U1 Pin=R16_U4-2
+Added Pin To Net: NetName=GND_U1 Pin=R16_U5-1
+Added Pin To Net: NetName=RXDO_U1 Pin=R16_U5-2
+Added Pin To Net: NetName=GND_U1 Pin=R18_U5-2
+Added Pin To Net: NetName=GND_U1 Pin=R20_U5-1
+Added Pin To Net: NetName=ENABLE_U1 Pin=R21_U1-2
+Added Pin To Net: NetName=GND_U1 Pin=R21_U5-1
+Added Pin To Net: NetName=VCC_U1 Pin=R22_U2-1
+Added Pin To Net: NetName=VCC_U1 Pin=R22_U3-1
+Added Pin To Net: NetName=VCC_U1 Pin=R22_U4-1
+Added Pin To Net: NetName=VCC_U1 Pin=R22_U5-1
+Added Pin To Net: NetName=ENABLE_U1 Pin=R23_U1-1
+Added Pin To Net: NetName=VCC_U1 Pin=R24_U2-1
+Added Pin To Net: NetName=VCC_U1 Pin=R24_U3-1
+Added Pin To Net: NetName=VCC_U1 Pin=R24_U4-1
+Added Pin To Net: NetName=VCC_U1 Pin=R24_U5-1
+Added Pin To Net: NetName=RXDO_U1 Pin=Rx-1
+Added Pin To Net: NetName=VCC_U1 Pin=Rx-2
+Added Pin To Net: NetName=GND_U1 Pin=S1_U5-3
+Added Pin To Net: NetName=NetTx_1 Pin=U1_U1-3
+Added Pin To Net: NetName=NetTx_2 Pin=U1_U1-4
+Added Pin To Net: NetName=NetTx_1 Pin=U1_U2-3
+Added Pin To Net: NetName=NetTx_2 Pin=U1_U2-4
+Added Pin To Net: NetName=NetTx_1 Pin=U1_U3-3
+Added Pin To Net: NetName=NetTx_2 Pin=U1_U3-4
+Added Pin To Net: NetName=NetTx_1 Pin=U1_U4-3
+Added Pin To Net: NetName=NetTx_2 Pin=U1_U4-4
+Added Pin To Net: NetName=GND_U1 Pin=U1_U5-2
+Change Net Name : Old Net Name=GND_U1 New Net Name=Power 1_U1
+Change Net Name : Old Net Name=GND_U2 New Net Name=Power 1_U2
+Change Net Name : Old Net Name=GND_U3 New Net Name=Power 1_U3
+Change Net Name : Old Net Name=GND_U4 New Net Name=Power 1_U4
+Change Net Name : Old Net Name=NetF1_U1_1 New Net Name=Power 2_U1
+Change Net Name : Old Net Name=NetF1_U2_1 New Net Name=Power 2_U2
+Change Net Name : Old Net Name=NetF1_U3_1 New Net Name=Power 2_U3
+Change Net Name : Old Net Name=NetF1_U4_1 New Net Name=Power 2_U4
+Change Net Name : Old Net Name=NetF1_U5_1 New Net Name=Power 2_U5
+Added Pin To Net: NetName=Power 1_U5 Pin=Power-5
+Added Net: Name=Power 1_U5
+Added Pin To Net: NetName=Thermal 2_U1 Pin=Thermal-6
+Added Net: Name=Thermal 2_U1
+Added Room: Name=Five cell modules

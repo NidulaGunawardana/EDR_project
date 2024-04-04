@@ -1,0 +1,61 @@
+Change Component Footprint: Designator=R2_U1 Old Footprint=RES_8F1001T5E_UNR New Footprint=RESC2012X60N
+Change Component Footprint: Designator=R2_U2 Old Footprint=RES_8F1001T5E_UNR New Footprint=RESC2012X60N
+Change Component Footprint: Designator=R2_U3 Old Footprint=RES_8F1001T5E_UNR New Footprint=RESC2012X60N
+Change Component Footprint: Designator=R2_U4 Old Footprint=RES_8F1001T5E_UNR New Footprint=RESC2012X60N
+Change Component Footprint: Designator=R2_U5 Old Footprint=RES_8F1001T5E_UNR New Footprint=RESC2012X60N
+Change Component Comment : Designator=R2_U1 Old Comment=0805W8F1001T5E New Comment=CRS0805-JX-102ELF
+Change Component Comment : Designator=R2_U2 Old Comment=0805W8F1001T5E New Comment=CRS0805-JX-102ELF
+Change Component Comment : Designator=R2_U3 Old Comment=0805W8F1001T5E New Comment=CRS0805-JX-102ELF
+Change Component Comment : Designator=R2_U4 Old Comment=0805W8F1001T5E New Comment=CRS0805-JX-102ELF
+Change Component Comment : Designator=R2_U5 Old Comment=0805W8F1001T5E New Comment=CRS0805-JX-102ELF
+Change component parameters: Designator = "R2_U1" ("R2"); Footprint = "RES_8F1001T5E_UNR"; UniqueID = "\CHMVTQTZ\AUIDQAUY" ("\CHMVTQTZ\AUIDQAUY")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CRS0805-JX-102ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2012 Stackpole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRS0805-JX-102ELF/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2_U2" ("R2"); Footprint = "RES_8F1001T5E_UNR"; UniqueID = "\BYOHQYUU\AUIDQAUY" ("\BYOHQYUU\AUIDQAUY")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CRS0805-JX-102ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2012 Stackpole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRS0805-JX-102ELF/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2_U3" ("R2"); Footprint = "RES_8F1001T5E_UNR"; UniqueID = "\QLHGRRKY\AUIDQAUY" ("\QLHGRRKY\AUIDQAUY")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CRS0805-JX-102ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2012 Stackpole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRS0805-JX-102ELF/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2_U4" ("R2"); Footprint = "RES_8F1001T5E_UNR"; UniqueID = "\PYLGZMZO\AUIDQAUY" ("\PYLGZMZO\AUIDQAUY")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CRS0805-JX-102ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2012 Stackpole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRS0805-JX-102ELF/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R2_U5" ("R2"); Footprint = "RES_8F1001T5E_UNR"; UniqueID = "\XAMCRMUO\AUIDQAUY" ("\XAMCRMUO\AUIDQAUY")
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Bourns"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "CRS0805-JX-102ELF"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "2012 Stackpole"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/CRS0805-JX-102ELF/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/CRS0805-JX-102ELF/Bourns/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Room: Name=Five cell modules
