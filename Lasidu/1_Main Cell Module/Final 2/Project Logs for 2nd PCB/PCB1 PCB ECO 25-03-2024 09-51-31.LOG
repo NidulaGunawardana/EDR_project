@@ -1,0 +1,71 @@
+Removed Pin From Net: NetName=PA3_U1 Pin=EXTTEMP1_U1-1
+Removed Pin From Net: NetName=ENABLE_U1 Pin=EXTTEMP1_U1-2
+Removed Pin From Net: NetName=PA3_U2 Pin=EXTTEMP1_U2-1
+Removed Pin From Net: NetName=ENABLE_U2 Pin=EXTTEMP1_U2-2
+Removed Pin From Net: NetName=PA3_U3 Pin=EXTTEMP1_U3-1
+Removed Pin From Net: NetName=ENABLE_U3 Pin=EXTTEMP1_U3-2
+Removed Pin From Net: NetName=PA3_U4 Pin=EXTTEMP1_U4-1
+Removed Pin From Net: NetName=ENABLE_U4 Pin=EXTTEMP1_U4-2
+Removed Pin From Net: NetName=PA3_U5 Pin=EXTTEMP1_U5-1
+Removed Pin From Net: NetName=ENABLE_U5 Pin=EXTTEMP1_U5-2
+Removed Pin From Net: NetName=GND Pin=POWER2_U1-1
+Removed Pin From Net: NetName=NetF1_U1_1 Pin=POWER2_U1-2
+Removed Pin From Net: NetName=GND Pin=POWER2_U2-1
+Removed Pin From Net: NetName=NetF1_U2_1 Pin=POWER2_U2-2
+Removed Pin From Net: NetName=GND Pin=POWER2_U3-1
+Removed Pin From Net: NetName=NetF1_U3_1 Pin=POWER2_U3-2
+Removed Pin From Net: NetName=GND Pin=POWER2_U4-1
+Removed Pin From Net: NetName=NetF1_U4_1 Pin=POWER2_U4-2
+Removed Pin From Net: NetName=GND Pin=POWER2_U5-1
+Removed Pin From Net: NetName=NetF1_U5_1 Pin=POWER2_U5-2
+Removed Pin From Net: NetName=RXDO_U1 Pin=RX_U1-1
+Removed Pin From Net: NetName=VCC_U1 Pin=RX_U1-2
+Removed Pin From Net: NetName=RXDO_U2 Pin=RX_U2-1
+Removed Pin From Net: NetName=VCC_U2 Pin=RX_U2-2
+Removed Pin From Net: NetName=RXDO_U3 Pin=RX_U3-1
+Removed Pin From Net: NetName=VCC_U3 Pin=RX_U3-2
+Removed Pin From Net: NetName=RXDO_U4 Pin=RX_U4-1
+Removed Pin From Net: NetName=VCC_U4 Pin=RX_U4-2
+Removed Pin From Net: NetName=RXDO_U5 Pin=RX_U5-1
+Removed Pin From Net: NetName=VCC_U5 Pin=RX_U5-2
+Removed Pin From Net: NetName=RXDO_U2 Pin=TX_U1-1
+Removed Pin From Net: NetName=VCC_U2 Pin=TX_U1-2
+Removed Pin From Net: NetName=RXDO_U3 Pin=TX_U2-1
+Removed Pin From Net: NetName=VCC_U3 Pin=TX_U2-2
+Removed Pin From Net: NetName=RXDO_U4 Pin=TX_U3-1
+Removed Pin From Net: NetName=VCC_U4 Pin=TX_U3-2
+Removed Pin From Net: NetName=RXDO_U5 Pin=TX_U4-1
+Removed Pin From Net: NetName=VCC_U5 Pin=TX_U4-2
+Removed Pin From Net: NetName=RXDO_U1 Pin=TX_U5-1
+Removed Pin From Net: NetName=VCC_U1 Pin=TX_U5-2
+Removed Pin From Net: NetName=RXDO_U1 Pin=U1_U5-3
+Removed Pin From Net: NetName=VCC_U1 Pin=U1_U5-4
+Change Component Designator: OldDesignator=POWER1_U1 NewDesignator=POWER_U1
+Change Component Designator: OldDesignator=POWER1_U2 NewDesignator=POWER_U2
+Change Component Designator: OldDesignator=POWER1_U3 NewDesignator=POWER_U3
+Change Component Designator: OldDesignator=POWER1_U4 NewDesignator=POWER_U4
+Change Component Designator: OldDesignator=POWER1_U5 NewDesignator=POWER_U5
+Added Component: Designator=Rx(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=Tx(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_U1 Pin=Rx-1
+Added Pin To Net: NetName=RXDO_U1 Pin=Rx-2
+Added Pin To Net: NetName=NetTx_1 Pin=Tx-1
+Added Pin To Net: NetName=NetTx_1 Pin=U1_U5-3
+Added Net: Name=NetTx_1
+Added Pin To Net: NetName=NetTx_2 Pin=Tx-2
+Added Pin To Net: NetName=NetTx_2 Pin=U1_U5-4
+Added Net: Name=NetTx_2
+Added Class: Name=Five cell modules
+Added Room: Name=Five cell modules

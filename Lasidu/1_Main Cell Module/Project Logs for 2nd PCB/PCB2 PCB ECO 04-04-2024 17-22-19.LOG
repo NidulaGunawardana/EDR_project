@@ -1,0 +1,31 @@
+Change Component Footprint: Designator=D2_U1 Old Footprint=DIOM5436X265N New Footprint=DIOM4336X265N
+Change Component Footprint: Designator=D2_U2 Old Footprint=DIOM5436X265N New Footprint=DIOM4336X265N
+Change Component Footprint: Designator=D2_U3 Old Footprint=DIOM5436X265N New Footprint=DIOM4336X265N
+Change Component Footprint: Designator=D2_U4 Old Footprint=DIOM5436X265N New Footprint=DIOM4336X265N
+Change Component Footprint: Designator=D2_U5 Old Footprint=DIOM5436X265N New Footprint=DIOM4336X265N
+Change Component Comment : Designator=D2_U1 Old Comment=SM6T6V8A New Comment=SMBJ5.0A
+Change Component Comment : Designator=D2_U2 Old Comment=SM6T6V8A New Comment=SMBJ5.0A
+Change Component Comment : Designator=D2_U3 Old Comment=SM6T6V8A New Comment=SMBJ5.0A
+Change Component Comment : Designator=D2_U4 Old Comment=SM6T6V8A New Comment=SMBJ5.0A
+Change Component Comment : Designator=D2_U5 Old Comment=SM6T6V8A New Comment=SMBJ5.0A
+Change component parameters: Designator = "D2_U1" ("D2"); Footprint = "DIOM5436X265N"; UniqueID = "\CHMVTQTZ\UKOGUHQY" ("\CHMVTQTZ\UKOGUHQY")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U2" ("D2"); Footprint = "DIOM5436X265N"; UniqueID = "\BYOHQYUU\UKOGUHQY" ("\BYOHQYUU\UKOGUHQY")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U3" ("D2"); Footprint = "DIOM5436X265N"; UniqueID = "\QLHGRRKY\UKOGUHQY" ("\QLHGRRKY\UKOGUHQY")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U4" ("D2"); Footprint = "DIOM5436X265N"; UniqueID = "\PYLGZMZO\UKOGUHQY" ("\PYLGZMZO\UKOGUHQY")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U5" ("D2"); Footprint = "DIOM5436X265N"; UniqueID = "\XAMCRMUO\UKOGUHQY" ("\XAMCRMUO\UKOGUHQY")
+Change component parameters (AddParameter): Name = "Mfr_Name"; Value = "Littelfuse Inc"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RefDes"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Type"; Value = ""; VariantName = "[No Variations]"
+Added Room: Name=Five cell modules

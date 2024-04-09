@@ -1,0 +1,59 @@
+Change Component Footprint: Designator=D2_U1 Old Footprint=DO-214AASMB_J-BEND_LTF New Footprint=DIOM5436X265N
+Change Component Footprint: Designator=D2_U2 Old Footprint=DO-214AASMB_J-BEND_LTF New Footprint=DIOM5436X265N
+Change Component Footprint: Designator=D2_U3 Old Footprint=DO-214AASMB_J-BEND_LTF New Footprint=DIOM5436X265N
+Change Component Footprint: Designator=D2_U4 Old Footprint=DO-214AASMB_J-BEND_LTF New Footprint=DIOM5436X265N
+Change Component Footprint: Designator=D2_U5 Old Footprint=DO-214AASMB_J-BEND_LTF New Footprint=DIOM5436X265N
+Change Component Comment : Designator=D2_U1 Old Comment=SMBJ5.0A New Comment=SM6T6V8A
+Change Component Comment : Designator=D2_U2 Old Comment=SMBJ5.0A New Comment=SM6T6V8A
+Change Component Comment : Designator=D2_U3 Old Comment=SMBJ5.0A New Comment=SM6T6V8A
+Change Component Comment : Designator=D2_U4 Old Comment=SMBJ5.0A New Comment=SM6T6V8A
+Change Component Comment : Designator=D2_U5 Old Comment=SMBJ5.0A New Comment=SM6T6V8A
+Change component parameters: Designator = "D2_U1" ("D2"); Footprint = "DO-214AASMB_J-BEND_LTF"; UniqueID = "\CHMVTQTZ\GQTDPLBA" ("\CHMVTQTZ\GQTDPLBA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm6t6v8a/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/sm6t100a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "511-SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T6V8A?qs=gFQxgRPje42DFJYRsrsouA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U2" ("D2"); Footprint = "DO-214AASMB_J-BEND_LTF"; UniqueID = "\BYOHQYUU\GQTDPLBA" ("\BYOHQYUU\GQTDPLBA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm6t6v8a/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/sm6t100a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "511-SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T6V8A?qs=gFQxgRPje42DFJYRsrsouA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U3" ("D2"); Footprint = "DO-214AASMB_J-BEND_LTF"; UniqueID = "\QLHGRRKY\GQTDPLBA" ("\QLHGRRKY\GQTDPLBA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm6t6v8a/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/sm6t100a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "511-SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T6V8A?qs=gFQxgRPje42DFJYRsrsouA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U4" ("D2"); Footprint = "DO-214AASMB_J-BEND_LTF"; UniqueID = "\PYLGZMZO\GQTDPLBA" ("\PYLGZMZO\GQTDPLBA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm6t6v8a/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/sm6t100a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "511-SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T6V8A?qs=gFQxgRPje42DFJYRsrsouA%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "D2_U5" ("D2"); Footprint = "DO-214AASMB_J-BEND_LTF"; UniqueID = "\XAMCRMUO\GQTDPLBA" ("\XAMCRMUO\GQTDPLBA")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/sm6t6v8a/stmicroelectronics?region=nac"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://www.st.com/resource/en/datasheet/sm6t100a.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "2.65mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "STMicroelectronics"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "511-SM6T6V8A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/STMicroelectronics/SM6T6V8A?qs=gFQxgRPje42DFJYRsrsouA%3D%3D"; VariantName = "[No Variations]"
+Add Net: Net with name "ENABLE_U3" already exists
+Add Net: Net with name "ENABLE_U4" already exists
+Add Net: Net with name "ENABLE_U5" already exists
+Added Room: Name=Five cell modules
