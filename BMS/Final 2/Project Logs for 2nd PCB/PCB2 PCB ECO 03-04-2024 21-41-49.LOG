@@ -1,0 +1,71 @@
+Removed Pin From Net: NetName=Power 1_U1 Pin=S1_U1-3
+Removed Pin From Net: NetName=Power 1_U2 Pin=S1_U2-3
+Removed Pin From Net: NetName=Power 1_U3 Pin=S1_U3-3
+Removed Pin From Net: NetName=Power 1_U4 Pin=S1_U4-3
+Removed Pin From Net: NetName=Power 1_U1 Pin=S1_U5-3
+Added Component: Designator=UPDU1_U1(JST_B3B-XH-A (LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A (LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=UPDU1_U2(JST_B3B-XH-A (LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A (LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=UPDU1_U3(JST_B3B-XH-A (LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A (LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=UPDU1_U4(JST_B3B-XH-A (LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A (LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=UPDU1_U5(JST_B3B-XH-A (LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B3B-XH-A (LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B3B-XH-A%20(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_U1 Pin=UPDU1_U1-1
+Added Pin To Net: NetName=Power 1_U1 Pin=UPDU1_U1-3
+Added Pin To Net: NetName=VCC_U1 Pin=UPDU1_U2-1
+Added Pin To Net: NetName=Power 1_U2 Pin=UPDU1_U2-3
+Added Pin To Net: NetName=VCC_U1 Pin=UPDU1_U3-1
+Added Pin To Net: NetName=Power 1_U3 Pin=UPDU1_U3-3
+Added Pin To Net: NetName=VCC_U1 Pin=UPDU1_U4-1
+Added Pin To Net: NetName=Power 1_U4 Pin=UPDU1_U4-3
+Added Pin To Net: NetName=VCC_U1 Pin=UPDU1_U5-1
+Added Pin To Net: NetName=Power 1_U1 Pin=UPDU1_U5-3
+Added Pin To Net: NetName=RESET_U1 Pin=IC1_U1-10
+Added Pin To Net: NetName=RESET_U1 Pin=R1_U1-1
+Added Pin To Net: NetName=RESET_U1 Pin=UPDU1_U1-2
+Added Net: Name=RESET_U1
+Added Pin To Net: NetName=RESET_U2 Pin=IC1_U2-10
+Added Pin To Net: NetName=RESET_U2 Pin=R1_U2-1
+Added Pin To Net: NetName=RESET_U2 Pin=UPDU1_U2-2
+Added Net: Name=RESET_U2
+Added Pin To Net: NetName=RESET_U3 Pin=IC1_U3-10
+Added Pin To Net: NetName=RESET_U3 Pin=R1_U3-1
+Added Pin To Net: NetName=RESET_U3 Pin=UPDU1_U3-2
+Added Net: Name=RESET_U3
+Added Pin To Net: NetName=RESET_U4 Pin=IC1_U4-10
+Added Pin To Net: NetName=RESET_U4 Pin=R1_U4-1
+Added Pin To Net: NetName=RESET_U4 Pin=UPDU1_U4-2
+Added Net: Name=RESET_U4
+Added Pin To Net: NetName=RESET_U5 Pin=IC1_U5-10
+Added Pin To Net: NetName=RESET_U5 Pin=R1_U5-1
+Added Pin To Net: NetName=RESET_U5 Pin=UPDU1_U5-2
+Added Net: Name=RESET_U5
+Added Room: Name=Five cell modules

@@ -1,0 +1,156 @@
+Removed Pin From Net: NetName=VCC_U1 Pin=D3_U1-2
+Removed Pin From Net: NetName=VCC_U2 Pin=D3_U2-2
+Removed Pin From Net: NetName=VCC_U3 Pin=D3_U3-2
+Removed Pin From Net: NetName=VCC_U4 Pin=D3_U4-2
+Removed Pin From Net: NetName=VCC_U5 Pin=D3_U5-2
+Removed Pin From Net: NetName=PA7_U1 Pin=R19_U1-1
+Removed Pin From Net: NetName=ENABLE_U1 Pin=R19_U1-2
+Removed Pin From Net: NetName=PA7_U2 Pin=R19_U2-1
+Removed Pin From Net: NetName=ENABLE_U2 Pin=R19_U2-2
+Removed Pin From Net: NetName=PA7_U3 Pin=R19_U3-1
+Removed Pin From Net: NetName=ENABLE_U3 Pin=R19_U3-2
+Removed Pin From Net: NetName=PA7_U4 Pin=R19_U4-1
+Removed Pin From Net: NetName=ENABLE_U4 Pin=R19_U4-2
+Removed Pin From Net: NetName=PA7_U5 Pin=R19_U5-1
+Removed Pin From Net: NetName=ENABLE_U5 Pin=R19_U5-2
+Change Component Footprint: Designator=D3_U1 Old Footprint=LEDC1608X50N New Footprint=5982105107F
+Change Component Footprint: Designator=D3_U2 Old Footprint=LEDC1608X50N New Footprint=5982105107F
+Change Component Footprint: Designator=D3_U3 Old Footprint=LEDC1608X50N New Footprint=5982105107F
+Change Component Footprint: Designator=D3_U4 Old Footprint=LEDC1608X50N New Footprint=5982105107F
+Change Component Footprint: Designator=D3_U5 Old Footprint=LEDC1608X50N New Footprint=5982105107F
+Change Component Footprint: Designator=R19_U1 Old Footprint=THRMC1608X95N New Footprint=THRMC2012X95N
+Change Component Footprint: Designator=R19_U2 Old Footprint=THRMC1608X95N New Footprint=THRMC2012X95N
+Change Component Footprint: Designator=R19_U3 Old Footprint=THRMC1608X95N New Footprint=THRMC2012X95N
+Change Component Footprint: Designator=R19_U4 Old Footprint=THRMC1608X95N New Footprint=THRMC2012X95N
+Change Component Footprint: Designator=R19_U5 Old Footprint=THRMC1608X95N New Footprint=THRMC2012X95N
+Change Component Comment : Designator=D3_U1 Old Comment=19-217_GHC-YR1S2_3T New Comment=598-2105-107F
+Change Component Comment : Designator=D3_U2 Old Comment=19-217_GHC-YR1S2_3T New Comment=598-2105-107F
+Change Component Comment : Designator=D3_U3 Old Comment=19-217_GHC-YR1S2_3T New Comment=598-2105-107F
+Change Component Comment : Designator=D3_U4 Old Comment=19-217_GHC-YR1S2_3T New Comment=598-2105-107F
+Change Component Comment : Designator=D3_U5 Old Comment=19-217_GHC-YR1S2_3T New Comment=598-2105-107F
+Change Component Comment : Designator=R19_U1 Old Comment=NCP18WF104J03RB New Comment=NTCS0805E3104GMT
+Change Component Comment : Designator=R19_U2 Old Comment=NCP18WF104J03RB New Comment=NTCS0805E3104GMT
+Change Component Comment : Designator=R19_U3 Old Comment=NCP18WF104J03RB New Comment=NTCS0805E3104GMT
+Change Component Comment : Designator=R19_U4 Old Comment=NCP18WF104J03RB New Comment=NTCS0805E3104GMT
+Change Component Comment : Designator=R19_U5 Old Comment=NCP18WF104J03RB New Comment=NTCS0805E3104GMT
+Change component parameters: Designator = "D3_U1" ("D3"); Footprint = "LEDC1608X50N"; UniqueID = "\CHMVTQTZ\SZNEGSQM" ("\CHMVTQTZ\SZNEGSQM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://s3-us-west-2.amazonaws.com/catsy.557/C18686.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8128mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Dialight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "598-2105-107F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3_U2" ("D3"); Footprint = "LEDC1608X50N"; UniqueID = "\BYOHQYUU\SZNEGSQM" ("\BYOHQYUU\SZNEGSQM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://s3-us-west-2.amazonaws.com/catsy.557/C18686.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8128mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Dialight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "598-2105-107F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3_U3" ("D3"); Footprint = "LEDC1608X50N"; UniqueID = "\QLHGRRKY\SZNEGSQM" ("\QLHGRRKY\SZNEGSQM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://s3-us-west-2.amazonaws.com/catsy.557/C18686.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8128mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Dialight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "598-2105-107F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3_U4" ("D3"); Footprint = "LEDC1608X50N"; UniqueID = "\PYLGZMZO\SZNEGSQM" ("\PYLGZMZO\SZNEGSQM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://s3-us-west-2.amazonaws.com/catsy.557/C18686.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8128mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Dialight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "598-2105-107F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3_U5" ("D3"); Footprint = "LEDC1608X50N"; UniqueID = "\XAMCRMUO\SZNEGSQM" ("\XAMCRMUO\SZNEGSQM")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://s3-us-west-2.amazonaws.com/catsy.557/C18686.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.8128mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Dialight"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "598-2105-107F"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19_U1" ("R19"); Footprint = "THRMC1608X95N"; UniqueID = "\CHMVTQTZ\RZMHQHCR" ("\CHMVTQTZ\RZMHQHCR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19_U2" ("R19"); Footprint = "THRMC1608X95N"; UniqueID = "\BYOHQYUU\RZMHQHCR" ("\BYOHQYUU\RZMHQHCR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19_U3" ("R19"); Footprint = "THRMC1608X95N"; UniqueID = "\QLHGRRKY\RZMHQHCR" ("\QLHGRRKY\RZMHQHCR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19_U4" ("R19"); Footprint = "THRMC1608X95N"; UniqueID = "\PYLGZMZO\RZMHQHCR" ("\PYLGZMZO\RZMHQHCR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Change component parameters: Designator = "R19_U5" ("R19"); Footprint = "THRMC1608X95N"; UniqueID = "\XAMCRMUO\RZMHQHCR" ("\XAMCRMUO\RZMHQHCR")
+Change component parameters (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=VCC_U1 Pin=D3_U1-1
+Added Pin To Net: NetName=VCC_U2 Pin=D3_U2-1
+Added Pin To Net: NetName=VCC_U3 Pin=D3_U3-1
+Added Pin To Net: NetName=VCC_U4 Pin=D3_U4-1
+Added Pin To Net: NetName=VCC_U5 Pin=D3_U5-1
+Added Pin To Net: NetName=ENABLE_U1 Pin=R19_U1-1
+Added Pin To Net: NetName=PA7_U1 Pin=R19_U1-2
+Added Pin To Net: NetName=ENABLE_U2 Pin=R19_U2-1
+Added Pin To Net: NetName=PA7_U2 Pin=R19_U2-2
+Added Pin To Net: NetName=ENABLE_U3 Pin=R19_U3-1
+Added Pin To Net: NetName=PA7_U3 Pin=R19_U3-2
+Added Pin To Net: NetName=ENABLE_U4 Pin=R19_U4-1
+Added Pin To Net: NetName=PA7_U4 Pin=R19_U4-2
+Added Pin To Net: NetName=ENABLE_U5 Pin=R19_U5-1
+Added Pin To Net: NetName=PA7_U5 Pin=R19_U5-2
+Added Pin To Net: NetName=NetD3_U1_2 Pin=D3_U1-2
+Added Pin To Net: NetName=NetD3_U1_2 Pin=R17_U1-1
+Added Net: Name=NetD3_U1_2
+Added Pin To Net: NetName=NetD3_U2_2 Pin=D3_U2-2
+Added Pin To Net: NetName=NetD3_U2_2 Pin=R17_U2-1
+Added Net: Name=NetD3_U2_2
+Added Pin To Net: NetName=NetD3_U3_2 Pin=D3_U3-2
+Added Pin To Net: NetName=NetD3_U3_2 Pin=R17_U3-1
+Added Net: Name=NetD3_U3_2
+Added Pin To Net: NetName=NetD3_U4_2 Pin=D3_U4-2
+Added Pin To Net: NetName=NetD3_U4_2 Pin=R17_U4-1
+Added Net: Name=NetD3_U4_2
+Added Pin To Net: NetName=NetD3_U5_2 Pin=D3_U5-2
+Added Pin To Net: NetName=NetD3_U5_2 Pin=R17_U5-1
+Added Net: Name=NetD3_U5_2
+Added Room: Name=Five cell modules

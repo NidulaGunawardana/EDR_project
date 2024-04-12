@@ -47,23 +47,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\2nd PCB - Copy\Five cell modules.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QNLLJSBH
-
-[Document2]
 DocumentPath=Single cell module.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -80,7 +63,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AUWBMORX
 
-[Document3]
+[Document2]
 DocumentPath=Five cell modules.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -97,7 +80,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=QNLLJSBH
 
-[Document4]
+[Document3]
 DocumentPath=PCB2.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -114,7 +97,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IWYTQMYQ
 
-[Document5]
+[Document4]
 DocumentPath=2nd PCB.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
