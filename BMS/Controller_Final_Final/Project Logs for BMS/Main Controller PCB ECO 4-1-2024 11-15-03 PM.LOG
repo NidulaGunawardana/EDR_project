@@ -1,0 +1,73 @@
+Add Component: Footprint Not Found FDLL4448
+Add Component: Footprint Not Found FDLL4448
+Add Component: Footprint Not Found SHDR3W64P0X250_1X3_1000X380X600P
+Add Component: Footprint Not Found SHDR3W64P0X250_1X3_1000X380X600P
+Added Component: Designator=K1(SRD)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://files.microjpm.webnode.com/200001010-dda41de9e1/Songle%20Relay%20Datasheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Songle Relay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SRD-05VDC-SL-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=K?(SRD)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://files.microjpm.webnode.com/200001010-dda41de9e1/Songle%20Relay%20Datasheet.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Songle Relay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "SRD-05VDC-SL-C"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add Component: Footprint Not Found LEDC1608X65N
+Add Component: Footprint Not Found LEDC1608X65N
+Add Component: Footprint Not Found PTS526SMG20SMTR21LFS
+Add Component: Footprint Not Found PTS526SMG20SMTR21LFS
+Add Component: Footprint Not Found SOP50P490X110-10N
+Add Pin To Net: Unknown Pin: Pin D2-1
+Add Pin To Net: Unknown Pin: Pin D2-2
+Add Pin To Net: Unknown Pin: Pin D3-1
+Add Pin To Net: Unknown Pin: Pin D3-2
+Add Pin To Net: Unknown Pin: Pin J3-1
+Add Pin To Net: Unknown Pin: Pin J3-2
+Add Pin To Net: Unknown Pin: Pin J3-3
+Add Pin To Net: Unknown Pin: Pin J4-1
+Add Pin To Net: Unknown Pin: Pin J4-2
+Add Pin To Net: Unknown Pin: Pin J4-3
+Added Pin To Net: NetName=NetJ3_1 Pin=K1-1
+Added Pin To Net: NetName=NetJ3_2 Pin=K1-2
+Added Pin To Net: NetName=NetJ3_3 Pin=K1-3
+Added Pin To Net: NetName=NetD2_2 Pin=K1-4
+Added Pin To Net: NetName=NetD2_2 Pin=K1-5
+Added Pin To Net: NetName=NetJ4_1 Pin=K?-1
+Added Pin To Net: NetName=NetJ4_2 Pin=K?-2
+Added Pin To Net: NetName=NetJ4_3 Pin=K?-3
+Added Pin To Net: NetName=NetD3_2 Pin=K?-4
+Add Pin To Net: Unknown Pin: Pin LED_Yellow1-1
+Add Pin To Net: Unknown Pin: Pin LED_Yellow1-2
+Add Pin To Net: Unknown Pin: Pin LED_Yellow2-1
+Add Pin To Net: Unknown Pin: Pin LED_Yellow2-2
+Add Pin To Net: Unknown Pin: Pin SW2-1
+Add Pin To Net: Unknown Pin: Pin SW2-3
+Add Pin To Net: Unknown Pin: Pin SW3-1
+Add Pin To Net: Unknown Pin: Pin SW3-3
+Add Pin To Net: Unknown Pin: Pin U6-1
+Add Pin To Net: Unknown Pin: Pin U6-2
+Add Pin To Net: Unknown Pin: Pin U6-3
+Add Pin To Net: Unknown Pin: Pin U6-4
+Add Pin To Net: Unknown Pin: Pin U6-5
+Add Pin To Net: Unknown Pin: Pin U6-6
+Add Pin To Net: Unknown Pin: Pin U6-7
+Add Pin To Net: Unknown Pin: Pin U6-8
+Add Pin To Net: Unknown Pin: Pin U6-9
+Add Pin To Net: Unknown Pin: Pin U6-10
+Add Class Member: Failed to add class member : Component D2 FDLL4148
+Add Class Member: Failed to add class member : Component D3 FDLL4148
+Add Class Member: Failed to add class member : Component J3 B3B-EH-A
+Add Class Member: Failed to add class member : Component J4 B3B-EH-A
+Added Member To Class: ClassName=Sheet1 Member=Component K1 SRD-05VDC-SL-C
+Added Member To Class: ClassName=Sheet1 Member=Component K? SRD-05VDC-SL-C
+Add Class Member: Failed to add class member : Component LED_Yellow1 TLMY1000-GS08
+Add Class Member: Failed to add class member : Component LED_Yellow2 TLMY1000-GS08
+Add Class Member: Failed to add class member : Component SW2 PTS526SMG20SMTR21_LFS
+Add Class Member: Failed to add class member : Component SW3 PTS526SMG20SMTR21_LFS
+Add Class Member: Failed to add class member : Component U6 INA229AIDGST

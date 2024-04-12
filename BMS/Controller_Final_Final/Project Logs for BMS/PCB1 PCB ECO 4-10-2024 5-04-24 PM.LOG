@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=NetJ10_2 Pin=K1-2
+Removed Pin From Net: NetName=NetJ10_3 Pin=K1-3
+Removed Pin From Net: NetName=NetD_A Pin=K1-4
+Removed Pin From Net: NetName=NetJ11_2 Pin=K2-2
+Removed Pin From Net: NetName=NetJ11_3 Pin=K2-3
+Removed Pin From Net: NetName=NetD2_A Pin=K2-4
+Change Component Footprint: Designator=R4 Old Footprint=FP-RT1206-MFG New Footprint=FP-ERA3A-IPC_B
+Change Component Comment : Designator=R4 Old Comment=RT1206FRE072K2L New Comment=ERA3AEB222V
+Change Managed Component Library Link : Designator=R4 Old VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 New VaultGUID=B7D15EC3-160A-466F-A46C-7801FE6295A7 Old ItemGUID=E7D7BB6C-2C64-49B8-8E23-E3DDE1DE0B79 New ItemGUID=96FC0037-F770-4C5F-9457-B62A167D0ED5 Old RevisionGUID=99B326CB-B2B1-4013-B6F5-ACF7CDCB89DB New RevisionGUID=DE8F6D5F-F299-49F5-8271-32D9DB3EC8FF
+Change component parameters: Designator = "R4" ("R4"); Footprint = "FP-RT1206-MFG"; UniqueID = "\PFJSHBTH" ("\PFJSHBTH")
+Change component parameters (AddParameter): Name = "Case Code (Imperial)"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case Code (Metric)"; Value = "1608"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Case/Package"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Construction"; Value = "Rectangular"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Contact Plating"; Value = "Tin"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Depth"; Value = "0.8mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Features"; Value = "Automotive AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Height"; Value = "0.45mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Lead Free"; Value = "Lead Free"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Length"; Value = "1.6mm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Operating Temperature"; Value = "155°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Max Power Dissipation"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Military Standard"; Value = "Not"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Min Operating Temperature"; Value = "-55°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mount"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Pins"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Number of Terminations"; Value = "2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package Quantity"; Value = "5000"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Packaging"; Value = "Tape and Reel"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Power Rating"; Value = "100mW"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Radiation Hardening"; Value = "No"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Ratings"; Value = "AEC-Q200"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Reach SVHC Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance"; Value = "2.2kR"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistance Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Resistor Type"; Value = "Thin Film"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RoHS Compliant"; Value = "Yes"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Series"; Value = "ERA-3A"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Size Code"; Value = "0603"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Technology"; Value = "METAL FILM"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Temperature Coefficient"; Value = "25ppm/°C"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Termination"; Value = "SMD/SMT"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Tolerance"; Value = "0.1%"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating"; Value = "75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Voltage Rating (DC)"; Value = "75V"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Width"; Value = "0.8mm"; VariantName = "[No Variations]"
+Added Component: Designator=S3(PTS526SMG20SMTR21LFS)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = "PTS526SMG20SMTR21 LFS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = "https://www.arrow.com/en/products/pts526smg20smtr21-lfs/ck?region=nac"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://www.ckswitches.com/media/2780/pts526.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "2.15mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "C & K COMPONENTS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PTS526SMG20SMTR21 LFS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "611-PTS526SMG20S21LF"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/CK/PTS526SMG20SMTR21-LFS?qs=MyNHzdoqoQLOqPcVU%2F1RhA%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetD_A Pin=K1-2
+Added Pin To Net: NetName=NetJ10_2 Pin=K1-3
+Added Pin To Net: NetName=NetJ10_3 Pin=K1-4
+Added Pin To Net: NetName=NetD2_A Pin=K2-2
+Added Pin To Net: NetName=NetJ11_2 Pin=K2-3
+Added Pin To Net: NetName=NetJ11_3 Pin=K2-4
+Added Pin To Net: NetName=GND Pin=S3-1
+Added Pin To Net: NetName=RESET Pin=S3-3
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=Sheet1 Member=Component S3 PTS526SMG20SMTR21_LFS
