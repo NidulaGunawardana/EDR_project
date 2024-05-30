@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
-PCB File : C:\Users\nidul\OneDrive - University of Moratuwa\Desktop\ACCA Folder My\ACCA sem 4\EDR\BMS\Controllwe 2\PCB1.PcbDoc
-Date     : 4/4/2024
-Time     : 8:51:20 PM
+PCB File : C:\Users\nidul\OneDrive - University of Moratuwa\Desktop\ACCA Folder My\ACCA sem 4\EDR\EDR_project\BMS\Controller Final\PCB1.PcbDoc
+Date     : 4/15/2024
+Time     : 10:14:23 PM
 
 Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
 Rule Violations :0
@@ -46,15 +46,24 @@ Processing Rule : Net Antennae (Tolerance=0mil) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
-   Violation between Board Outline Clearance(Cutout Edge): (Collision < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3476.418mil,2563.78mil)(3741.772mil,2563.78mil) on Top Overlay 
-   Violation between Board Outline Clearance(Cutout Edge): (Collision < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3476.418mil,3278.346mil)(3741.772mil,3278.346mil) on Top Overlay 
-   Violation between Board Outline Clearance(Cutout Edge): (Collision < 7.874mil) Between Board Cutout (Multi-Layer)Region (0 hole(s)) Multi-Layer And Track (3741.772mil,2563.78mil)(3741.772mil,3278.346mil) on Top Overlay 
-Rule Violations :3
+   Violation between Board Outline Clearance(Outline Edge): (3.342mil < 7.874mil) Between Board Edge And Text "JP4" (2969.997mil,1018.342mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0mil < 7.874mil) Between Board Edge And Text "JTAG" (3515mil,1015mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Text "Relay1" (1339.253mil,1020.516mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Track (1358.188mil,1019.452mil)(1358.188mil,1245.83mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Track (1358.188mil,1019.452mil)(1747.95mil,1019.452mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Track (1747.95mil,1019.452mil)(1747.95mil,1245.83mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.518mil < 7.874mil) Between Board Edge And Track (2233.839mil,1019.454mil)(2233.839mil,1245.832mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.518mil < 7.874mil) Between Board Edge And Track (2233.839mil,1019.454mil)(2623.603mil,1019.454mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.518mil < 7.874mil) Between Board Edge And Track (2623.603mil,1019.454mil)(2623.603mil,1245.832mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (3.543mil < 7.874mil) Between Board Edge And Track (2985.906mil,1017.48mil)(2985.906mil,1243.858mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (3.543mil < 7.874mil) Between Board Edge And Track (2985.906mil,1017.48mil)(3474.094mil,1017.48mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (3.543mil < 7.874mil) Between Board Edge And Track (3474.094mil,1017.48mil)(3474.094mil,1243.858mil) on Top Overlay 
+Rule Violations :12
 
 Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
 Rule Violations :0
 
 
-Violations Detected : 3
+Violations Detected : 12
 Waived Violations : 0
 Time Elapsed        : 00:00:02
