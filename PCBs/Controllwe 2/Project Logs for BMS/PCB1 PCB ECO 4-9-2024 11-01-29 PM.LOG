@@ -1,0 +1,13 @@
+Removed Pin From Net: NetName=NetJ10_2 Pin=K1-2
+Removed Pin From Net: NetName=NetD_A Pin=K1-4
+Removed Pin From Net: NetName=NetJ11_2 Pin=K2-2
+Removed Pin From Net: NetName=NetD2_A Pin=K2-4
+Add Component: Footprint Not Found PTS526SMG20SMTR21LFS
+Added Pin To Net: NetName=NetD_A Pin=K1-2
+Added Pin To Net: NetName=NetJ10_2 Pin=K1-4
+Added Pin To Net: NetName=NetD2_A Pin=K2-2
+Added Pin To Net: NetName=NetJ11_2 Pin=K2-4
+Add Pin To Net: Unknown Pin: Pin SW1-1
+Add Pin To Net: Unknown Pin: Pin SW1-3
+Added Member To Class: ClassName=Sheet1 Member=Component JP5 B2B-XH-A(LF)(SN)
+Add Class Member: Failed to add class member : Component SW1 PTS526SMG20SMTR21_LFS

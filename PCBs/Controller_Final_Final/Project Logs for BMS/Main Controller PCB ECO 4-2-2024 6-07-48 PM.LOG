@@ -1,0 +1,5 @@
+Added Component: Designator=IC2(VSSOP10_DGS_TEX)
+Add component (AddParameter): Name = "Mfr_Name"; Value = "Texas Instruments"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RefDes"; Value = "RefDes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Type"; Value = "Linear"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=Sheet1 Member=Component IC2 INA229AIDGST

@@ -1,0 +1,121 @@
+Added Component: Designator=J_1(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J_2(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J_3(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J_4(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=J_5(JST_B2B-XH-A(LF)(SN))
+Add component (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=eda"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MF"; Value = "JST Sales America Inc."; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "MP"; Value = "B2B-XH-A(LF)(SN)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "None"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/B2B-XH-A(LF)(SN)/JST+Sales+America+Inc./view-part/?ref=snap"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=R23_1(THRMC2012X95N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R23_2(THRMC2012X95N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R23_3(THRMC2012X95N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R23_4(THRMC2012X95N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Added Component: Designator=R23_5(THRMC2012X95N)
+Add component (AddParameter): Name = "Arrow Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Arrow Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet Link"; Value = "http://www.vishay.com/docs/29044/ntcs0805e3t.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.95mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Vishay"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "594-NTCS0805E3104GMT"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Vishay-BC-Components/NTCS0805E3104GMT?qs=%2FWiulJ9oly70BwjDbuc51g%3D%3D"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetJ_1_1 Pin=J_1-1
+Added Pin To Net: NetName=NetJ_1_1 Pin=R23_1-1
+Added Net: Name=NetJ_1_1
+Added Pin To Net: NetName=NetJ_1_2 Pin=J_1-2
+Added Pin To Net: NetName=NetJ_1_2 Pin=R23_1-2
+Added Net: Name=NetJ_1_2
+Added Pin To Net: NetName=NetJ_2_1 Pin=J_2-1
+Added Pin To Net: NetName=NetJ_2_1 Pin=R23_2-1
+Added Net: Name=NetJ_2_1
+Added Pin To Net: NetName=NetJ_2_2 Pin=J_2-2
+Added Pin To Net: NetName=NetJ_2_2 Pin=R23_2-2
+Added Net: Name=NetJ_2_2
+Added Pin To Net: NetName=NetJ_3_1 Pin=J_3-1
+Added Pin To Net: NetName=NetJ_3_1 Pin=R23_3-1
+Added Net: Name=NetJ_3_1
+Added Pin To Net: NetName=NetJ_3_2 Pin=J_3-2
+Added Pin To Net: NetName=NetJ_3_2 Pin=R23_3-2
+Added Net: Name=NetJ_3_2
+Added Pin To Net: NetName=NetJ_4_1 Pin=J_4-1
+Added Pin To Net: NetName=NetJ_4_1 Pin=R23_4-1
+Added Net: Name=NetJ_4_1
+Added Pin To Net: NetName=NetJ_4_2 Pin=J_4-2
+Added Pin To Net: NetName=NetJ_4_2 Pin=R23_4-2
+Added Net: Name=NetJ_4_2
+Added Pin To Net: NetName=NetJ_5_1 Pin=J_5-1
+Added Pin To Net: NetName=NetJ_5_1 Pin=R23_5-1
+Added Net: Name=NetJ_5_1
+Added Pin To Net: NetName=NetJ_5_2 Pin=J_5-2
+Added Pin To Net: NetName=NetJ_5_2 Pin=R23_5-2
+Added Net: Name=NetJ_5_2
+Added Member To Class: ClassName=External Temp Sensor Member=Component J_1 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=External Temp Sensor Member=Component J_2 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=External Temp Sensor Member=Component J_3 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=External Temp Sensor Member=Component J_4 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=External Temp Sensor Member=Component J_5 B2B-XH-A(LF)(SN)
+Added Member To Class: ClassName=External Temp Sensor Member=Component R23_1 NTCS0805E3104GMT
+Added Member To Class: ClassName=External Temp Sensor Member=Component R23_2 NTCS0805E3104GMT
+Added Member To Class: ClassName=External Temp Sensor Member=Component R23_3 NTCS0805E3104GMT
+Added Member To Class: ClassName=External Temp Sensor Member=Component R23_4 NTCS0805E3104GMT
+Added Member To Class: ClassName=External Temp Sensor Member=Component R23_5 NTCS0805E3104GMT
+Added Room: Name=External Temp Sensor

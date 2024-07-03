@@ -1,0 +1,69 @@
+Protel Design System Design Rule Check
+PCB File : C:\Users\nidul\OneDrive - University of Moratuwa\Desktop\ACCA Folder My\ACCA sem 4\EDR\EDR_project\BMS\Controller Final\PCB1.PcbDoc
+Date     : 4/15/2024
+Time     : 10:14:23 PM
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=5mil) (Max=1000mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (InPadClass('PowerPads'))
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=11.811mil) (Conductor Width=5mil) (Air Gap=5mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Minimum Annular Ring (Minimum=3mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=11.811mil) (Max=248.031mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=9.842mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Silk To Solder Mask (Clearance=5mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=0mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Board Clearance Constraint (Gap=0mil) (All)
+   Violation between Board Outline Clearance(Outline Edge): (3.342mil < 7.874mil) Between Board Edge And Text "JP4" (2969.997mil,1018.342mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (0mil < 7.874mil) Between Board Edge And Text "JTAG" (3515mil,1015mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Text "Relay1" (1339.253mil,1020.516mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Track (1358.188mil,1019.452mil)(1358.188mil,1245.83mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Track (1358.188mil,1019.452mil)(1747.95mil,1019.452mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.516mil < 7.874mil) Between Board Edge And Track (1747.95mil,1019.452mil)(1747.95mil,1245.83mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.518mil < 7.874mil) Between Board Edge And Track (2233.839mil,1019.454mil)(2233.839mil,1245.832mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.518mil < 7.874mil) Between Board Edge And Track (2233.839mil,1019.454mil)(2623.603mil,1019.454mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (5.518mil < 7.874mil) Between Board Edge And Track (2623.603mil,1019.454mil)(2623.603mil,1245.832mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (3.543mil < 7.874mil) Between Board Edge And Track (2985.906mil,1017.48mil)(2985.906mil,1243.858mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (3.543mil < 7.874mil) Between Board Edge And Track (2985.906mil,1017.48mil)(3474.094mil,1017.48mil) on Top Overlay 
+   Violation between Board Outline Clearance(Outline Edge): (3.543mil < 7.874mil) Between Board Edge And Track (3474.094mil,1017.48mil)(3474.094mil,1243.858mil) on Top Overlay 
+Rule Violations :12
+
+Processing Rule : Height Constraint (Min=0mil) (Max=71497.938mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 12
+Waived Violations : 0
+Time Elapsed        : 00:00:02

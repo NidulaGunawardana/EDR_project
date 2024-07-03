@@ -1,6 +1,0 @@
-Add Component: Footprint Not Found PTS526SMG20SMTR21LFS
-Added Pin To Net: NetName=RELAY2 Pin=3-1
-Added Pin To Net: NetName=RELAY1 Pin=4-1
-Add Pin To Net: Unknown Pin: Pin SW1-1
-Add Pin To Net: Unknown Pin: Pin SW1-3
-Add Class Member: Failed to add class member : Component SW1 PTS526SMG20SMTR21_LFS
