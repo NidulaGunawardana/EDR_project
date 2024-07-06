@@ -78,37 +78,10 @@ volatile uint16_t OnPulseCount = 0;
 
 void DefaultConfig()
 {
-#if defined(__AVR_ATtinyx24__)
   myConfig.Calibration = 1.0;
-#else
-  // About 2.2007 seems about right on ATTINY841
-  myConfig.Calibration = 2.2007;
-#endif
-
-#if defined(DIYBMSMODULEVERSION) && (DIYBMSMODULEVERSION == 420 && !defined(SWAPR19R20))
-  // Keep temperature low for modules with R19 and R20 not swapped
-  myConfig.BypassTemperatureSetPoint = 45;
-#else
-  // Stop running bypass if temperature over 65 degrees C
   myConfig.BypassTemperatureSetPoint = 65;
-#endif
-
-  // Start bypass at 4.1V
   myConfig.BypassThresholdmV = 4100;
 
-  //#if defined(DIYBMSMODULEVERSION) && (DIYBMSMODULEVERSION == 430 || DIYBMSMODULEVERSION == 420 || DIYBMSMODULEVERSION == 421)
-  // Murata Electronics NCP18WB473J03RB = 47K ±5% 4050K ±2% 100mW 0603 NTC Thermistors RoHS
-  // myConfig.Internal_BCoefficient = 4050;
-  //#else
-  // 4150 = B constant (25-50℃)
-  // myConfig.Internal_BCoefficient = 4150;
-  //#endif
-
-  // 4150 = B constant (25-50℃)
-  // myConfig.External_BCoefficient = 4150;
-
-  // Resistance @ 25℃ = 47k, B Constant 4150, 0.20mA max current
-  // Using https://www.thinksrs.com/downloads/programs/therm%20calc/ntccalibrator/ntccalculator.html
 }
 
 void watchdog()
@@ -118,22 +91,6 @@ void watchdog()
   PP.IncrementWatchdogCounter();
 }
 
-#if defined(__AVR_ATtiny841__)
-ISR(USART0_START_vect)
-{
-  // Needs to be here!
-  asm("NOP");
-}
-ISR(WDT_vect)
-{
-  watchdog();
-}
-ISR(ADC_vect)
-{
-  // when ADC completed, take an interrupt and process result
-  PP.ADCReading(diyBMSHAL::ReadADC());
-}
-#endif
 
 void onPacketReceived()
 {
@@ -156,45 +113,22 @@ void onPacketReceived()
   // Therefore we use 1.4.1 which has the correct code to wait until the buffer
   // is empty.
   diyBMSHAL::FlushSerial0();
-
   diyBMSHAL::NotificationLedOff();
 }
 
-// Kp: Determines how aggressively the PID reacts to the current amount of error
-// (Proportional)
-// Ki: Determines how aggressively the PID reacts to error over time (Integral)
-// Kd: Determines how aggressively the PID reacts to the change in error
-// (Derivative)
-
-// 6Hz rate - number of times we call this code in Loop
-// Kp, Ki, Kd, Hz, output_bits, output_signed);
-// Settings for V4.00 boards with 2R2 resistors = (4.0, 0.5, 0.2, 6, 8, false);
 FastPID myPID(5.0, 1.0, 0.1, 3, 8, false);
 
 void ValidateConfiguration()
 {
   if (myConfig.Calibration < 0.8 || myConfig.Calibration > 10.0)
   {
-#if defined(__AVR_ATtinyx24__)
     myConfig.Calibration = 1.0;
-#else
-    // About 2.2007 seems about right on ATTINY841
-    myConfig.Calibration = 2.2007;
-#endif
   }
 
   if (myConfig.BypassTemperatureSetPoint > DIYBMS_MODULE_SafetyTemperatureCutoff)
   {
     myConfig.BypassTemperatureSetPoint = DIYBMS_MODULE_SafetyTemperatureCutoff - 10;
   }
-
-#if defined(DIYBMSMODULEVERSION) && (DIYBMSMODULEVERSION == 420 && !defined(SWAPR19R20))
-  // Keep temperature low for modules with R19 and R20 not swapped
-  if (myConfig.BypassTemperatureSetPoint > 45)
-  {
-    myConfig.BypassTemperatureSetPoint = 45;
-  }
-#endif
 }
 
 void StopBalance()
@@ -221,12 +155,8 @@ void setup()
   // Hold flag to cater for tinyAVR2 chips
   bool just_powered_up = true;
 
-#if defined(__AVR_ATtinyx24__)
-  // Did we have a watchdog reboot?
-  // The megaTinycore copies the RSTCTRL.RSTFR register into GPIOR0 on reset (watchdog, power up etc)
-  // RSTFR is cleared before our code runs, so this is the only way to identify a watchdog reset
-  // when using megaTinycore and tinyAVR chips.
-  if ((GPIOR0 & RSTCTRL_WDRF_bm) == RSTCTRL_WDRF_bm)
+
+  if ((GPIOR0 & 0x08) == 0x08)
   {
     watchdog();
     // Its not a power on reset, its a watchdog reset
@@ -234,44 +164,21 @@ void setup()
   }
 
 
-/*
-//Brown Out Detection
-  if ((GPIOR0 & RSTCTRL_BORF_bm) == RSTCTRL_BORF_bm)
-  {
-    diyBMSHAL::FlashNotificationLed(6, 250);
-  }
-*/
-#endif
-
-  // below 2Mhz is required for running ATTINY841 at low voltages (less than 2V)
   diyBMSHAL::SetPrescaler();
-
-  // 8 second between watchdogs
   diyBMSHAL::SetWatchdog8sec();
-
-  // Setup IO ports
   diyBMSHAL::ConfigurePorts();
 
   if (just_powered_up)
   {
-    // 4 flashes
     diyBMSHAL::PowerOn_Notification_led();
   }
-
-  // Check if setup routine needs to be run
   if (!Settings::ReadConfigFromEEPROM((uint8_t *)&myConfig, sizeof(myConfig), EEPROM_CONFIG_ADDRESS))
   {
     DefaultConfig();
-    // No need to save here as the default config will load every time if the CRC is wrong
   }
 
   ValidateConfiguration();
 
-#if defined(DIYBMSMODULEVERSION) && DIYBMSMODULEVERSION < 440
-  diyBMSHAL::double_tap_blue_led();
-#endif
-
-  // The PID can vary between 0 and 255 (1 byte)
   myPID.setOutputRange(0, 255);
 
   StopBalance();
@@ -283,12 +190,6 @@ void setup()
 }
 void BalanceTimer()
 {
-  // when v=1, the duration between on and off is 2.019ms (1.0095ms per
-  // interrupt) - on for 2.019ms off for 255.7ms, 0.7844% duty
-  // when v=128 (50%), the duration between on and off is 130.8ms (1.0218ms per
-  // interrupt) - on for 130.8ms, off for 127.4ms 50.67% duty
-  // when v=192 (75%), the duration between on and off is 195.6ms (1.0187ms per
-  // interrupt) - on for 62.63ms, off for 30.83ms, 75.74% duty
   InterruptCounter++;
   PulsePeriod++;
   // Reset at top
@@ -337,15 +238,9 @@ void BalanceTimer()
     PulsePeriod = 0;
   }
 }
-#if defined(__AVR_ATtiny841__)
-ISR(TIMER1_COMPA_vect)
-{
-  // This ISR is called every 1 millisecond when TIMER1 is enabled
-  BalanceTimer();
-}
-#endif
 
-#if defined(__AVR_ATtinyx24__)
+
+
 // We don't use ADC interrupts on ATtinyX24 as there is no benefit
 ISR(TCA0_OVF_vect)
 {
@@ -354,41 +249,25 @@ ISR(TCA0_OVF_vect)
   //diyBMSHAL::SpareToggle();
   BalanceTimer();
   //diyBMSHAL::SpareOff();
-  TCA0.SINGLE.INTFLAGS = TCA_SINGLE_OVF_bm;
+  TCA0.SINGLE.INTFLAGS = 0x01;
 }
-#endif
+
 
 inline void identifyModule()
 {
   if (PP.identifyModule > 0)
   {
-#if defined(DIYBMSMODULEVERSION) && DIYBMSMODULEVERSION < 440
-    diyBMSHAL::BlueLedOn();
-#else
     diyBMSHAL::NotificationLedOn();
-#endif
     PP.identifyModule--;
 
     if (PP.identifyModule == 0)
     {
-#if defined(DIYBMSMODULEVERSION) && DIYBMSMODULEVERSION < 440
-      diyBMSHAL::BlueLedOff();
-#else
       diyBMSHAL::NotificationLedOff();
-#endif
     }
   }
 }
 
-/*
-void loop()
-{
-  // This loop runs around 3 times per second when the module is in bypass
-  wdt_reset();
 
-  Serial.println("Hello world!");
-}
-*/
 
 void loop()
 {
@@ -405,14 +284,7 @@ void loop()
 
   if (wdt_triggered)
   {
-#if defined(DIYBMSMODULEVERSION) && DIYBMSMODULEVERSION < 440
-    // Flash blue LED twice after a watchdog wake up
-    diyBMSHAL::double_tap_blue_led();
-#else
-    // Flash Notification LED twice after a watchdog wake up
     diyBMSHAL::double_tap_Notification_led();
-#endif
-
     // If we have just woken up, we shouldn't be in balance safety check that we are not
     StopBalance();
   }
@@ -427,15 +299,8 @@ void loop()
   // Internal temperature
   PP.TakeAnAnalogueReading(ADC_INTERNAL_TEMP);
 
-  // Only take these readings when we are NOT in bypass....
-  // this causes the voltage and temperature to "freeze" during bypass cycles
   if (PP.bypassCountDown == 0)
   {
-    // Just for debug purposes, shows when voltage is read
-    //#if defined(DIYBMSMODULEVERSION) && DIYBMSMODULEVERSION < 430
-    //     diyBMSHAL::BlueLedOn();
-    //#endif
-
     // External temperature
     PP.TakeAnAnalogueReading(ADC_EXTERNAL_TEMP);
 
@@ -446,7 +311,7 @@ void loop()
     PP.TakeAnAnalogueReading(ADC_CELL_VOLTAGE);
 #else
     // Take several samples and average the result
-    for (size_t i = 0; i < SAMPLEAVERAGING; i++)
+    for (size_t i = 0; i < 5; i++)
     {
       PP.TakeAnAnalogueReading(ADC_CELL_VOLTAGE);
     }

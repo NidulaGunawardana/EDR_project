@@ -11,7 +11,7 @@ void dumpLoadOn() { PORTB.OUTSET = PIN1_bm; }
 void dumpLoadOff() { PORTB.OUTCLR = PIN1_bm; }
 
 void referenceVoltageOn() {
-    PORTA.OUTSET = PIN1_bm;  // Ref voltage ON (PA1)
+    PORTA.OUTSET = PIN1_bm ;  // Ref voltage ON (PA1)
     PORTB.OUTSET = PIN0_bm;  // Enable (PB0)
     delay(50);
 }
@@ -30,16 +30,16 @@ void selectCellVoltageChannel() {
 }
 
 void selectInternalTemperatureChannel() {
-    ADC0.MUXPOS = ADC_MUXPOS_AIN7_gc;  // PA7
+    ADC0.MUXPOS = (0x07<<0);  // PA7
 }
 
 void selectExternalTemperatureChannel() {
-    ADC0.MUXPOS = ADC_MUXPOS_AIN3_gc;  // PA3
+    ADC0.MUXPOS = (0x03<<0);  // PA3
 }
 
-void notificationLedOn() { PORTA.OUTSET = PIN6_bm; }
+void notificationLedOn() { PORTA.OUTSET = 0x40; }
 
-void notificationLedOff() { PORTA.OUTCLR = PIN6_bm; }
+void notificationLedOff() { PORTA.OUTCLR = 0x40; }
 
 uint16_t beginADCReading(uint8_t adcMode) {
     uint16_t value = 0;
